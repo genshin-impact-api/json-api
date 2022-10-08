@@ -1,0 +1,14 @@
+{
+    "name": "genshin-impact-json-api",
+    "version": "1.0.0",
+    "description": "Genshin Impact JSON API",
+    "scripts": {
+        "start": "json-server --watch db.json --host 0.0.0.0"
+    },
+    "author": "Jiaqi (Jack) Liu",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "express": "^4.16.4",
+        "json-server": "*"
+    }
+}
