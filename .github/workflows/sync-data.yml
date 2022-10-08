@@ -1,0 +1,13 @@
+name: Sync Data
+on:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Playable Character Data
+        run: |
+          echo "Fetching playable character data..."
