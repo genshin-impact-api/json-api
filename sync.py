@@ -1,2 +1,3 @@
 if __name__ == "__main__":
-    print("Syncing data using Python Script...")
+    with open("db.json", "w") as data_file:
+        data_file.write("First data")
