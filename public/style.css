@@ -1,3 +1,15 @@
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -40,7 +52,7 @@ nav li.title {
   text-align: left;
   font-weight: bold;
   font-size: 1.4rem;
-  color: #3b4252;
+  color: #FCFAFA;
 }
 
 nav li {
@@ -66,6 +78,11 @@ footer {
 h1 {
   margin-top: 4rem;
   font-weight: normal;
+  color: #FCFAFA
+}
+
+p {
+  color: #FCFAFA
 }
 
 i {
@@ -73,7 +90,7 @@ i {
 }
 
 a {
-  color: #5e81ac;
+  color: #1498DA;
 }
 
 a:hover {
@@ -109,5 +126,5 @@ code {
   padding: 0.2rem;
   margin: 0rem 0.2rem;
   border-radius: 0.2rem;
-  background: #e5e9f0;
+  background: #5F8DDA;
 }
