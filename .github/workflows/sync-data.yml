@@ -9,6 +9,13 @@ jobs:
   sync-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Download Playable Character Data
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+      - name: sync data
         run: |
-          echo "Fetching playable character data..."
+          python sync.py
