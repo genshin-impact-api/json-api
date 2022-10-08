@@ -19,3 +19,8 @@ jobs:
       - name: Sync Data
         run: |
           python sync.py
+          git add db.json
+          git config --global user.name 'QubitPi'
+          git config --global user.email 'jack20191124@proton.me'
+          git commit -am "Sync data"
+          git push origin master
