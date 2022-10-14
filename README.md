@@ -10,16 +10,15 @@ Genshin Impact JSON API
 Docker
 ------
 
-Get Image
----------
+### Get Image
 
-### Docker Hub
+#### Docker Hub
 
 You can pull the image from [Genshin Impact API Docker Hub](https://hub.docker.com/r/genshinimpactapi/json-api/):
 
     docker pull genshinimpactapi/json-api:latest
 
-### GitHub
+#### GitHub
 
 You could also build the image from [GitHub source repository](https://github.com/genshin-impact-api/json-api):
 
@@ -28,8 +27,7 @@ You could also build the image from [GitHub source repository](https://github.co
     docker build -t genshinimpactapi/json-api .
 
 
-Standup a Container
--------------------
+### Standup a Container
 
     docker run -d --name=genshin-impact-json-api -it -p 80:3000 genshinimpactapi/genshin-impact-json-api
 
