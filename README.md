@@ -6,8 +6,6 @@
 Genshin Impact JSON API
 =======================
 
-
-
 Get Image
 ---------
 
