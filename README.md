@@ -14,13 +14,13 @@ Docker
 
 #### Docker Hub
 
-You can pull the image from [Genshin Impact API Docker Hub](https://hub.docker.com/r/genshinimpactapi/json-api/):
+We can pull the image from [Genshin Impact API Docker Hub](https://hub.docker.com/r/genshinimpactapi/json-api/):
 
     docker pull genshinimpactapi/json-api:latest
 
 #### GitHub
 
-You could also build the image from [GitHub source repository](https://github.com/genshin-impact-api/json-api):
+We could also build the image from [GitHub source repository](https://github.com/genshin-impact-api/json-api):
 
     git clone https://github.com/genshin-impact-api/json-api.git
     cd json-api
