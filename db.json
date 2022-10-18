@@ -617,11 +617,22 @@
             "id": 56
         },
         {
+            "nameCn": "妮露",
+            "titleCn": "莲光落舞筵",
+            "visionCn": "水",
+            "biligameUrl": "https://wiki.biligame.com/ys/妮露",
+            "nameEn": "Nilou",
+            "titleEn": "Dance of Lotuslight",
+            "releaseDate": "October 14, 2022",
+            "fandomUrl": "https://genshin-impact.fandom.com/wiki/Nilou",
+            "id": 57
+        },
+        {
             "nameCn": "莱依拉",
             "titleCn": "绮思晚星",
             "visionCn": "冰",
             "biligameUrl": "https://wiki.biligame.com/ys/莱依拉",
-            "id": 57
+            "id": 58
         }
     ]
 }
