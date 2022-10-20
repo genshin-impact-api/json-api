@@ -32,7 +32,7 @@ We could also build the image from [GitHub source repository](https://github.com
     docker run -d --name=genshin-impact-json-api -it -p 80:3000 genshinimpactapi/json-api
 
 > 📋 Note that we are mapping container port 3000 to host port 80, but users are free to change 80 to any _available_
-> ports such as 8080
+> ports such as 8080.
 
 
 Documentation
