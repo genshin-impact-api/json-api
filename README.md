@@ -26,7 +26,6 @@ We could also build the image from [GitHub source repository](https://github.com
     cd json-api
     docker build -t genshinimpactapi/json-api .
 
-
 ### Standup a Container
 
     docker run -d --name=genshin-impact-json-api -it -p 80:3000 genshinimpactapi/json-api
